@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tIeL87wXo3sYhFr+ldU/hv8wLFr4JvKdOldBGGL5FgrsWOR2fgpaFt3Sj/ftVNDJnIr/6bfGIibCSAC7YS4uNA==",
+  "success": true,
+  "projectFilePath": "D:\\Projets\\SuperTag\\Launcher\\LauncherSuperTag\\LauncherSuperTag\\LauncherSuperTag.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m.abid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
+  ],
+  "logs": []
+}
