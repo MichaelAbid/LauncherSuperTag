@@ -29,7 +29,7 @@
   <ItemGroup>
     <Resource Include="images\background.png" />
     <Resource Include="images\icon.ico" />
-    <Resource Include="images\unity.png" />
+    <Resource Include="unity.png" />
   </ItemGroup>
 
 </Project>
