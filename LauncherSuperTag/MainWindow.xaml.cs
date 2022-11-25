@@ -28,6 +28,9 @@ namespace WanderingClouds
         private string gameZip;
         private string gameExe;
 
+        private string versionLink = "https://www.dropbox.com/s/pgdp6o61rkuis2w/WanderingCloudsVersion.txt?dl=1";
+        private string gameLink = "https://www.dropbox.com/s/r60j6ivgcip893r/WanderingClouds.zip?dl=1";
+
         private long bitPrevious = 0;
 
         private LauncherStatus _status;
@@ -103,7 +106,7 @@ namespace WanderingClouds
                 else
                 {
                     Status = LauncherStatus.LAUCNHER_STATUS_DOWNLOADING_GAME;
-                    _onlineVersion = new Version(webClient.DownloadString("https://www.dropbox.com/s/pgdp6o61rkuis2w/WanderingCloudsVersion.txt?dl=1"));
+                    _onlineVersion = new Version(webClient.DownloadString(versionLink));
                 }
                 webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(DownloadGameCompletedCallback);
                 webClient.DownloadProgressChanged += (s, e) =>
@@ -111,7 +114,7 @@ namespace WanderingClouds
                     PlayButton.Content = $" Downloading Files {e.BytesReceived / 1000000}MB / {e.TotalBytesToReceive / 1000000}MB ({e.ProgressPercentage}%)";
                     bitPrevious = e.BytesReceived;
                 };
-                webClient.DownloadFileAsync(new Uri("https://www.dropbox.com/s/r60j6ivgcip893r/WanderingClouds.zip?dl=1"),gameZip,_onlineVersion);
+                webClient.DownloadFileAsync(new Uri(gameLink),gameZip,_onlineVersion);
             }
             catch(Exception ex)
             {
@@ -149,7 +152,7 @@ namespace WanderingClouds
                 try
                 {
                     WebClient webClient = new WebClient();
-                    Version onlineVersion = new Version(webClient.DownloadString("https://www.dropbox.com/s/gk53hreco26m37s/Version.txt?dl=1"));
+                    Version onlineVersion = new Version(webClient.DownloadString(versionLink));
                     if (onlineVersion.IsDifferentThan(localVersion))
                     {
                         InstallGameFiles(true, onlineVersion);

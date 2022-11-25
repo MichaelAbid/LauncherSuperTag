@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         ContentRendered="Window_ContentRendered"
-        Title="SuperTag Launcher" Height="600" Width="450" WindowStyle="None">
+        Title="Wandering Clouds" Height="600" Width="450" ResizeMode="NoResize" Icon="/images/icon.ico" WindowStyle="ToolWindow">
     <Grid>
         <Image Source="images/background.png" HorizontalAlignment="Right" Stretch="Fill"   >
             <Image.Effect>
