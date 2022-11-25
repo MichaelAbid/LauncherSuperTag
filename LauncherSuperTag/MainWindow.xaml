@@ -16,7 +16,7 @@
         </Image>
         
         <TextBlock FontFamily="Corbel" Name="VersionText" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="20"  Margin="0,0,5,0" Foreground="#BDFFFFFF">Loading</TextBlock>
-        <Button Name="PlayButton" Content="Checking For Updates" Click="PlayButton_Click"  Height="96" FontSize="25" FontWeight="Bold" Foreground="#DDFFFFFF" VerticalAlignment="Top" HorizontalAlignment="Center" MinWidth="150" Background="#66000000" BorderBrush="{x:Null}" Width="450" FontFamily="Corbel" Margin="0,459,0,0" >
+        <Button Name="PlayButton" Content="Checking For Updates" Click="PlayButton_Click"  Height="96" FontSize="25" FontWeight="Bold" Foreground="#DDFFFFFF" VerticalAlignment="Top" HorizontalAlignment="Center" MinWidth="150" Background="#66000000" BorderBrush="{x:Null}" Width="450" FontFamily="Corbel" Margin="0,418,0,0" >
             <UIElement.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
