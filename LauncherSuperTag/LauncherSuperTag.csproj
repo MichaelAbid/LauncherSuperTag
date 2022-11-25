@@ -5,16 +5,31 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>images\icon.ico</ApplicationIcon>
+    <Title>WanderingClouds</Title>
+    <PackageId>WanderingClouds</PackageId>
+    <Authors>WanderingClouds</Authors>
+    <Company>WanderingClouds</Company>
+    <Product>WanderingClouds</Product>
+    <Version>1.0.0</Version>
+    <PackageIcon>Title.png</PackageIcon>
+    <AssemblyName>WanderingClouds</AssemblyName>
+    <RootNamespace>WanderingClouds</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="images\background.png" />
     <None Remove="images\icon.ico" />
+    <None Remove="images\Title.png" />
+    <None Remove="images\unity.png" />
+    <None Remove="images\WanderingClouds_KeyArt.png" />
+    <None Remove="Title.png" />
+    <None Remove="unity.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\background.png" />
     <Resource Include="images\icon.ico" />
+    <Resource Include="images\unity.png" />
   </ItemGroup>
 
 </Project>

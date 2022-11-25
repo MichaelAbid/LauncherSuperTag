@@ -5,8 +5,9 @@ using System.IO;
 using System.IO.Compression;
 using System.Net;
 using System.Windows;
+using System.Windows.Controls;
 
-namespace LauncherSuperTag
+namespace WanderingClouds
 {
     enum LauncherStatus
     {
@@ -26,6 +27,8 @@ namespace LauncherSuperTag
         private string versionFile;
         private string gameZip;
         private string gameExe;
+
+        private long bitPrevious = 0;
 
         private LauncherStatus _status;
         internal LauncherStatus Status
@@ -60,7 +63,7 @@ namespace LauncherSuperTag
             rootPath = Directory.GetCurrentDirectory();
             versionFile = Path.Combine(rootPath, "Version.txt");
             gameZip = Path.Combine(rootPath, "Build.zip");
-            gameExe = Path.Combine(rootPath, "Build", "SuperTag.exe");
+            gameExe = Path.Combine(rootPath, "Build", "WanderingCloud.exe");
 
             InitializeComponent();
         }
@@ -103,6 +106,12 @@ namespace LauncherSuperTag
                     _onlineVersion = new Version(webClient.DownloadString("https://www.dropbox.com/s/gk53hreco26m37s/Version.txt?dl=1"));
                 }
                 webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(DownloadGameCompletedCallback);
+                webClient.DownloadProgressChanged += (s, e) =>
+                {
+                    float speed = (e.BytesReceived - bitPrevious)/1000000;
+                    PlayButton.Content = $" Downloading Files {e.BytesReceived / 1000000}MB / {e.TotalBytesToReceive / 1000000}MB ({e.ProgressPercentage}%) {speed} MB / s";
+                    bitPrevious = e.BytesReceived;
+                };
                 webClient.DownloadFileAsync(new Uri("https://www.dropbox.com/s/v5pzp1a4z3k171m/Build.zip?dl=1"),gameZip,_onlineVersion);
             }
             catch(Exception ex)

@@ -17,3 +17,24 @@ D:\Projets\SuperTag\Launcher\LauncherSuperTag\LauncherSuperTag\obj\Release\netco
 D:\Projets\SuperTag\Launcher\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.dll
 D:\Projets\SuperTag\Launcher\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.pdb
 D:\Projets\SuperTag\Launcher\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.genruntimeconfig.cache
+D:\Projets\SuperTag\Launcher\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.csproj.AssemblyReference.cache
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.csproj.AssemblyReference.cache
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\MainWindow.g.cs
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\App.g.cs
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\MainWindow.baml
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.AssemblyInfoInputs.cache
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.AssemblyInfo.cs
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.csproj.CoreCompileInputs.cache
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\LauncherSuperTag.genruntimeconfig.cache
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\bin\Release\netcoreapp3.1\WanderingClouds.exe
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\bin\Release\netcoreapp3.1\WanderingClouds.deps.json
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\bin\Release\netcoreapp3.1\WanderingClouds.runtimeconfig.json
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\bin\Release\netcoreapp3.1\WanderingClouds.runtimeconfig.dev.json
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\bin\Release\netcoreapp3.1\WanderingClouds.dll
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\bin\Release\netcoreapp3.1\WanderingClouds.pdb
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\WanderingClouds_MarkupCompile.cache
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\WanderingClouds_MarkupCompile.lref
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\WanderingClouds.g.resources
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\WanderingClouds.dll
+D:\PROJET P5\LauncherSuperTag\LauncherSuperTag\obj\Release\netcoreapp3.1\WanderingClouds.pdb

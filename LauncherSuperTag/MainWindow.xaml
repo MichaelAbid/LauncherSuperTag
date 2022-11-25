@@ -1,20 +1,32 @@
-﻿<Window x:Class="LauncherSuperTag.MainWindow"
+﻿<Window x:Class="WanderingClouds.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:LauncherSuperTag"
+        xmlns:local="clr-namespace:WanderingClouds"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         ContentRendered="Window_ContentRendered"
-        Title="SuperTag Launcher" Height="576" Width="1080">
+        Title="SuperTag Launcher" Height="600" Width="450">
     <Grid>
-        <Image Stretch="Fill" Source="images/background.png" HorizontalAlignment="Right"  >
+        <Image Source="images/background.png" HorizontalAlignment="Right" Stretch="Fill"   >
             <Image.Effect>
-                <BlurEffect Radius="20"/>
+                <BlurEffect Radius="0"/>
             </Image.Effect>
         </Image>
-        <TextBlock Name="VersionText" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="20" Foreground="White" Margin="0,0,5,0"/>
-        <Button Name="PlayButton" Content="Checking For Updates" Click="PlayButton_Click"  Height="60" FontSize="28" FontWeight="Bold" Foreground="#DDFFFFFF" Margin="0,0,0,15" VerticalAlignment="Bottom" HorizontalAlignment="Center" MinWidth="150" Background="#66000000" BorderBrush="{x:Null}" />
+        <Image Source="images/unity.png" Margin="376,-28,10,470"    >
+           
+        </Image>
+        <TextBlock FontFamily="Corbel" Name="VersionText" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="20"  Margin="0,0,5,0" Foreground="#BDFFFFFF">Loading</TextBlock>
+        <Button Name="PlayButton" Content="Checking For Updates" Click="PlayButton_Click"  Height="96" FontSize="15" FontWeight="Bold" Foreground="#DDFFFFFF" VerticalAlignment="Top" HorizontalAlignment="Center" MinWidth="150" Background="#66000000" BorderBrush="{x:Null}" Width="450" FontFamily="Corbel" Margin="0,459,0,0" >
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </Button>
     </Grid>
 </Window>
